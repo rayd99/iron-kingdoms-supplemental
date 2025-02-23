@@ -36,5 +36,15 @@ CONFIG.DND5E.tools.mechanik = {
     id: "Compendium.iron-kingdoms-supplemental.iron-kingdoms-items.Item.NuBqHpkTS0OUxFEL"
 }
 
+// Testing Firearm categorization
+CONFIG.DND5E.weaponProficiencies.martialFirearms = "Martial Firearms";
+CONFIG.DND5E.weaponTypes.martialFirearms = "Martial Firearms";
+
+CONFIG.DND5E.weaponProficiencies.simpleFirearms = "Simple Firearms";
+CONFIG.DND5E.weaponTypes.simpleFirearms = "Simple Firearms";
+
+CONFIG.DND5E.weaponProficienciesMap.simpleFirearms = "firearms";
+CONFIG.DND5E.weaponProficienciesMap.martialFirearms = "firearms";
+
 // Ending of script
 });
