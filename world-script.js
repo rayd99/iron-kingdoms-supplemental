@@ -40,7 +40,7 @@ CONFIG.DND5E.tools.mechanik = {
 delete CONFIG.DND5E.weaponTypes.firearms;
 
 // Deleting Firearms Proficiency
-delete CONFIG.DND5E.weaponProficiencies.oth.firearms;
+delete CONFIG.DND5E.weaponProficiencies.firearms;
 
 // Testing Firearm categorization
 // Firearm Groupings
