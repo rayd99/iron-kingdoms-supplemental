@@ -1,14 +1,13 @@
 Hooks.once("init", () => {
 // Deleting languages that don't fit this world
-    delete CONFIG.DND5E.languages.standard.elvish;
-    delete CONFIG.DND5E.languages.standard.giant;
-    delete CONFIG.DND5E.languages.standard.gnomish;
-    delete CONFIG.DND5E.languages.standard.goblin;
-    delete CONFIG.DND5E.languages.standard.halfling;
-    delete CONFIG.DND5E.languages.standard.orc;
+    delete CONFIG.DND5E.languages.standard.children.elvish;
+    delete CONFIG.DND5E.languages.standard.children.giant;
+    delete CONFIG.DND5E.languages.standard.children.gnomish;
+    delete CONFIG.DND5E.languages.standard.children.goblin;
+    delete CONFIG.DND5E.languages.standard.children.halfling;
+    delete CONFIG.DND5E.languages.standard.children.orc;
 
 // Deleting exotic languages that don't fit this world
-    delete CONFIG.DND5E.languages.druidic;
     delete CONFIG.DND5E.languages.exotic.children.aarakocra;
     delete CONFIG.DND5E.languages.exotic.children.primordial;    
     delete CONFIG.DND5E.languages.exotic.children.deepspeech;
