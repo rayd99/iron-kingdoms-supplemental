@@ -40,14 +40,14 @@ CONFIG.DND5E.tools.mechanik = {
 delete CONFIG.DND5E.weaponTypes.firearms;
 
 // Deleting Firearms Proficiency
-delete CONFIG.DND5E.weaponProficiencies.firearms;
+delete CONFIG.DND5E.weaponProficiencies.firearm;
 
 // Testing Firearm categorization
 // Firearm Groupings
 // CONFIG.DND5E.weaponProficiencies.simplefirearms = "Simple Firearms";
 
 
-CONFIG.DND5E.weaponProficiencies.sim.pistols = "Pistols";
+//CONFIG.DND5E.weaponProficiencies.sim.pistols = "Pistols";
 
 // Simple Proficiences
 /*CONFIG.DND5E.weaponProficiencies.simplefirearms.pistols = "Pistols";
