@@ -1,0 +1,63 @@
+{
+  "id": "iron-kingdoms-supplemental",
+  "title": "Iron Kingdoms Supplemental",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "This private package contains resources necessary to run the Iron Kingdoms campaign.",
+  "authors": [
+    {
+      "name": "RaydMiard",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "iron-kingdoms-actors",
+      "label": "Iron Kingdoms Actors",
+      "path": "packs/iron-kingdoms-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "iron-kingdoms-items",
+      "label": "Iron Kingdoms Items",
+      "path": "packs/iron-kingdoms-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "iron-kingdoms-journals",
+      "label": "Iron Kingdoms Journals",
+      "path": "packs/iron-kingdoms-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
