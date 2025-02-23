@@ -29,4 +29,12 @@ Hooks.once("init", () => {
 
 // Adding rare languages
 CONFIG.DND5E.languages.exotic.children.seeker = "Seeker";
-  });
+
+// Adding new tool proficiencies
+CONFIG.DND5E.tools.mechanik = {
+    ability: "int",
+    id: "Compendium.iron-kingdoms-supplemental.iron-kingdoms-items.Item.NuBqHpkTS0OUxFEL"
+}
+
+// Ending of script
+});
