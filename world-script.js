@@ -1,4 +1,3 @@
-// Languages
 Hooks.once("init", () => {
 // Deleting languages that don't fit this world
     delete CONFIG.DND5E.languages.druidic;
@@ -6,10 +5,15 @@ Hooks.once("init", () => {
     delete CONFIG.DND5E.languages.exotic.children.primordial;    
     
 // Adding Kingdom Languages
-    CONFIG.DND5E.languages.standard.kingdomdialects = "Kingdom Dialects";
-    CONFIG.DND5E.languages.standard.kingdomdialects.children.cygnaran = "Cygnaran";
-    CONFIG.DND5E.languages.standard.kingdomdialects.children.khadorn = "Khadoran";
-    CONFIG.DND5E.languages.standard.kingdomdialects.children.khadorn = "Menite";
-    CONFIG.DND5E.languages.standard.kingdomdialects.children.khadorn = "Llaelese";
-    CONFIG.DND5E.languages.standard.kingdomdialects.children.khadorn = "Rhulic";
+CONFIG.DND5E.languages.standard.children.gibberish = {
+    label: "Kingdom Dialects",
+    children: {
+      cygnaran: "Cygnaran",
+      khadoran: "Khadoran",
+      menite: "Menite",
+      llaelese: "Llaelese",
+      rhulic: "Rhulic"
+    }
+  };
+    
   });
