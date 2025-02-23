@@ -36,20 +36,15 @@ CONFIG.DND5E.tools.mechanik = {
     id: "Compendium.iron-kingdoms-supplemental.iron-kingdoms-items.Item.NuBqHpkTS0OUxFEL"
 }
 
-// Deleting old items
+// Deleting Firearms Type
 delete CONFIG.DND5E.weaponTypes.firearms;
+
+// Deleting Firearms Proficiency
+delete CONFIG.DND5E.weaponProficiencies.oth.firearms;
 
 // Testing Firearm categorization
 // Firearm Groupings
 // CONFIG.DND5E.weaponProficiencies.simplefirearms = "Simple Firearms";
-CONFIG.DND5E.weaponProficiencies.simplefirearms.children.gibberish = {
-    label: "Gibberish",
-    children: {
-      gibberish: "Gibberish",
-      highgibberish: "High Gibberish"
-    }
-  };
-
 
 
 CONFIG.DND5E.weaponProficiencies.martialfirearms = "Martial Firearms";
