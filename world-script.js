@@ -47,10 +47,10 @@ delete CONFIG.DND5E.weaponProficiencies.firearms;
 // CONFIG.DND5E.weaponProficiencies.simplefirearms = "Simple Firearms";
 
 
-CONFIG.DND5E.weaponProficiencies.martialfirearms = "Martial Firearms";
+CONFIG.DND5E.weaponProficiencies.sim.pistols = "Pistols";
 
 // Simple Proficiences
-CONFIG.DND5E.weaponProficiencies.simplefirearms.pistols = "Pistols";
+/*CONFIG.DND5E.weaponProficiencies.simplefirearms.pistols = "Pistols";
 
 // Martial Proficiencies
 CONFIG.DND5E.weaponProficiencies.martialfirearms.carbines = "Carbines";
@@ -65,7 +65,7 @@ CONFIG.DND5E.weaponTypes.martialfirearms = "Martial Firearms";
 CONFIG.DND5E.weaponProficienciesMap.pistols = "simplefirearms";
 CONFIG.DND5E.weaponProficienciesMap.carbines = "martialfirearms";
 CONFIG.DND5E.weaponProficienciesMap.rifles = "martialfirearms";
-
+*/
 
 /* 
 CONFIG.DND5E.weaponProficiencies.martialFirearms = "Martial Firearms";
