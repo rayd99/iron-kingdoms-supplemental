@@ -37,6 +37,22 @@ CONFIG.DND5E.tools.mechanik = {
 }
 
 // Testing Firearm categorization
+// Main group
+CONFIG.DND5E.weaponProficiencies.simplefirearms = "Simple Firearms";
+CONFIG.DND5E.weaponProficiencies.martialfirearms = "Martial Firearms";
+
+// Subgroups
+CONFIG.DND5E.weaponTypes.carbines = "Carbines";
+CONFIG.DND5E.weaponTypes.rifles = "Rifles";
+CONFIG.DND5E.weaponTypes.pistols = "Pistols";
+
+// What main group the subgroups belong to
+CONFIG.DND5E.weaponProficienciesMap.pistols = "simplefirearms";
+CONFIG.DND5E.weaponProficienciesMap.carbines = "martialfirearms";
+CONFIG.DND5E.weaponProficienciesMap.rifles = "martialfirearms";
+
+
+/* 
 CONFIG.DND5E.weaponProficiencies.martialFirearms = "Martial Firearms";
 CONFIG.DND5E.weaponTypes.martialFirearms = "Martial Firearms";
 
@@ -45,6 +61,6 @@ CONFIG.DND5E.weaponTypes.simpleFirearms = "Simple Firearms";
 
 CONFIG.DND5E.weaponProficienciesMap.simpleFirearms = "firearms";
 CONFIG.DND5E.weaponProficienciesMap.martialFirearms = "firearms";
-
+*/
 // Ending of script
 });
