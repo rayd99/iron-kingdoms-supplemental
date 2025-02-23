@@ -1,6 +1,7 @@
 {
   "id": "iron-kingdoms-supplemental",
   "title": "Iron Kingdoms Supplemental",
+  "esmodules": [ "world-script.js" ],
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
