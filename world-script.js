@@ -36,15 +36,25 @@ CONFIG.DND5E.tools.mechanik = {
     id: "Compendium.iron-kingdoms-supplemental.iron-kingdoms-items.Item.NuBqHpkTS0OUxFEL"
 }
 
+// Deleting old items
+delete CONFIG.DND5E.weaponTypes.firearms;
+
 // Testing Firearm categorization
-// Main group
+// Firearm Groupings
 CONFIG.DND5E.weaponProficiencies.simplefirearms = "Simple Firearms";
 CONFIG.DND5E.weaponProficiencies.martialfirearms = "Martial Firearms";
 
+// Simple Proficiences
+CONFIG.DND5E.weaponProficiencies.simplefirearms.pistols = "Pistols";
+
+// Martial Proficiencies
+CONFIG.DND5E.weaponProficiencies.martialfirearms.carbines = "Carbines";
+CONFIG.DND5E.weaponProficiencies.martialfirearms.rifles = "Rifles";
+
 // Subgroups
-CONFIG.DND5E.weaponTypes.carbines = "Carbines";
-CONFIG.DND5E.weaponTypes.rifles = "Rifles";
-CONFIG.DND5E.weaponTypes.pistols = "Pistols";
+CONFIG.DND5E.weaponTypes.simplefirearms = "Simple Firearms";
+CONFIG.DND5E.weaponTypes.martialfirearms = "Martial Firearms";
+
 
 // What main group the subgroups belong to
 CONFIG.DND5E.weaponProficienciesMap.pistols = "simplefirearms";
