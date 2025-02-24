@@ -37,10 +37,24 @@ CONFIG.DND5E.tools.mechanik = {
 }
 
 // Deleting Firearms Type
-delete CONFIG.DND5E.weaponTypes.firearms;
+delete CONFIG.DND5E.weaponTypes.firearm;
 
 // Deleting Firearms Proficiency
 delete CONFIG.DND5E.weaponProficiencies.firearm;
+
+// New Firearm Types
+CONFIG.DND5E.weaponTypes.simpleF = "Simple Firearms";
+CONFIG.DND5E.weaponTypes.martialF = "Martial Firearms";
+
+CONFIG.DND5E.weaponProficienciesMap.simpleF = "sim";
+CONFIG.DND5E.weaponProficienciesMap.martialF = "mar";
+
+CONFIG.DND5E.weaponTypeMap.simpleF = "ranged";
+CONFIG.DND5E.weaponTypeMap.martialF = "ranged";
+
+// New WeaponIDs
+CONFIG.DND5E.weaponIds.pistol = "Compendium.iron-kingdoms-supplemental.iron-kingdoms-items.Item.DVdX2oarOwe34JTq";
+CONFIG.DND5E.weaponIds.carbine = "Compendium.iron-kingdoms-supplemental.iron-kingdoms-items.Item.cDA0avbkYzIhMdQe";
 
 // Testing Firearm categorization
 // Firearm Groupings
@@ -55,11 +69,6 @@ delete CONFIG.DND5E.weaponProficiencies.firearm;
 // Martial Proficiencies
 CONFIG.DND5E.weaponProficiencies.martialfirearms.carbines = "Carbines";
 CONFIG.DND5E.weaponProficiencies.martialfirearms.rifles = "Rifles";
-
-// Subgroups
-CONFIG.DND5E.weaponTypes.simplefirearms = "Simple Firearms";
-CONFIG.DND5E.weaponTypes.martialfirearms = "Martial Firearms";
-
 
 // What main group the subgroups belong to
 CONFIG.DND5E.weaponProficienciesMap.pistols = "simplefirearms";
