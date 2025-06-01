@@ -1,7 +1,7 @@
 {
   "id": "iron-kingdoms-supplemental",
   "title": "Iron Kingdoms Supplemental",
-  "esmodules": [ "world-script.js" ],
+  "esmodules": [ "src/world-script.js" ],
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
@@ -60,5 +60,8 @@
       "system": "dnd5e",
       "flags": {}
     }
-  ]
+  ],
+  "download": "",
+  "manifest": "https://raw.githubusercontent.com/Rayd99/foundry-vtt-campaign-module/main/module.json",
+  "url": ""
 }

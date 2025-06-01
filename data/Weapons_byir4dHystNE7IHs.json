@@ -1,0 +1,22 @@
+{
+  "name": "Weapons",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "byir4dHystNE7IHs",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.3",
+    "createdTime": 1740356295694,
+    "modifiedTime": 1748813520852,
+    "lastModifiedBy": "wy0UY0Dqu0azaOnu"
+  },
+  "_key": "!folders!byir4dHystNE7IHs"
+}

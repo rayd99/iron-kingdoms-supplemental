@@ -1,0 +1,168 @@
+{
+  "folder": "KD4sQmMDlFZEwKvL",
+  "name": "Mechanik's Toolkit",
+  "type": "tool",
+  "_id": "NuBqHpkTS0OUxFEL",
+  "img": "icons/tools/hand/screwdriver-flat-steel-black.webp",
+  "system": {
+    "activities": {
+      "6LakqmHWzixyUSzr": {
+        "_id": "6LakqmHWzixyUSzr",
+        "type": "check",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "check": {
+          "associated": [],
+          "dc": {}
+        },
+        "useConditionText": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default"
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": []
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>This kit consists of a heavy wooden box or leather pouch belt stuffed with the tools of the mechanik’s trade. In addition to common mechanik’s tools such as wrenches, hammers, and bolt drivers, a mechanik’s toolkit includes an array of other instruments, including several varieties of ratchets, pliers, tongs, spanners, calipers, and dividers. The kit of a mechanik who works on steamjacks will also include bores, chisels, reamers, scrapers, injectors for priming pneumatic chambers, expanders for piston cylinders, and several more esoteric items besides. Proficiency with a mechanik’s toolkit lets you add your proficiency bonus to any ability checks you make to craft or repair mechanika, steamjacks, and similar devices.</p>",
+      "chat": ""
+    },
+    "identifier": "new-item",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 35,
+      "units": "lb"
+    },
+    "price": {
+      "value": 35,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "art",
+      "baseItem": ""
+    },
+    "ability": "",
+    "chatFlavor": "",
+    "proficient": null,
+    "properties": [],
+    "bonus": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "wy0UY0Dqu0azaOnu": 3
+  },
+  "flags": {
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.3",
+    "createdTime": 1740291539337,
+    "modifiedTime": 1740291739786,
+    "lastModifiedBy": "wy0UY0Dqu0azaOnu"
+  },
+  "_key": "!items!NuBqHpkTS0OUxFEL"
+}

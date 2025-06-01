@@ -1,0 +1,8 @@
+# We never commit the SQLite packs directory because it's all binary data:
+packs/
+
+# Node dependencies, local build outputs, etc.
+node_modules/
+dist/
+.DS_Store
+*.log

@@ -1,0 +1,14 @@
+{
+  "name": "foundry-vtt-campaign-module",
+  "version": "1.0.0",
+  "description": "Iron Kingdoms Campaign Module for Foundry VTT",
+  "scripts": {
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.1.0",
+    "level": "^10.0.0"
+  }
+}

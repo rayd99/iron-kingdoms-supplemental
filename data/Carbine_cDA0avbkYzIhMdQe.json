@@ -1,0 +1,232 @@
+{
+  "folder": "byir4dHystNE7IHs",
+  "name": "Carbine",
+  "type": "weapon",
+  "_id": "cDA0avbkYzIhMdQe",
+  "img": "icons/weapons/guns/gun-brown.webp",
+  "system": {
+    "activities": {
+      "ahpYFUFx4Td13KFE": {
+        "_id": "ahpYFUFx4Td13KFE",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {}
+        },
+        "damage": {
+          "critical": {},
+          "includeBase": true,
+          "parts": []
+        },
+        "useConditionText": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "forceDialog": false,
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default"
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "attackMode": "oneHanded",
+        "ammunition": "",
+        "otherActivityId": "",
+        "otherActivityUuid": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>The carbine is a short-barreled firearm designed for versatility, offering greater range and stopping power than a pistol while remaining lighter and more maneuverable than a full-length rifle. Favored by skirmishers, cavalry, and mechanized infantry, it excels in close-to-mid-range combat, providing a reliable balance of firepower and mobility.</p>",
+      "chat": ""
+    },
+    "identifier": "new-item",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "martialF",
+      "baseItem": "carbine"
+    },
+    "ammunition": {
+      "type": "firearmBullet"
+    },
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": 2,
+        "denomination": 8,
+        "types": [
+          "piercing"
+        ],
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      }
+    },
+    "magicalBonus": null,
+    "properties": [
+      "amm",
+      "fir",
+      "two"
+    ],
+    "proficient": null,
+    "range": {
+      "value": 50,
+      "long": 150,
+      "reach": null,
+      "units": "ft"
+    },
+    "mastery": "vex"
+  },
+  "effects": [],
+  "flags": {
+    "midi-qol": {
+      "fumbleThreshold": null,
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.3",
+    "createdTime": 1740356295712,
+    "modifiedTime": 1740356746161,
+    "lastModifiedBy": "wy0UY0Dqu0azaOnu"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "wy0UY0Dqu0azaOnu": 3
+  },
+  "_key": "!items!cDA0avbkYzIhMdQe"
+}
