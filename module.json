@@ -2,10 +2,11 @@
   "id": "iron-kingdoms-supplemental",
   "title": "Iron Kingdoms Supplemental",
   "esmodules": [ "src/world-script.js" ],
-  "version": "1.0.0",
+  "version": "This is auto replaced",
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "13",
+    "maximum": "13"
   },
   "languages": [
     {
@@ -66,6 +67,13 @@
       },
       "system": "dnd5e",
       "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Iron Kingdoms Compendium",
+      "sorting": "a",
+      "packs": ["iron-kingdoms-actors","iron-kingdoms-items","iron-kingdoms-journals"]
     }
   ],
   "download": "This is auto replaced",
