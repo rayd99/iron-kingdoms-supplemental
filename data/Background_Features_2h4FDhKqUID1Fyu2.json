@@ -1,0 +1,22 @@
+{
+  "name": "Background Features",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "2h4FDhKqUID1Fyu2",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.2",
+    "createdTime": 1748922578291,
+    "modifiedTime": 1748922578291,
+    "lastModifiedBy": "wy0UY0Dqu0azaOnu"
+  },
+  "_key": "!folders!2h4FDhKqUID1Fyu2"
+}

@@ -1,0 +1,166 @@
+{
+  "folder": "cZDzPVWCWMatdW1R",
+  "name": "Seeker",
+  "type": "background",
+  "_id": "61h7MG1xtbbjt3cg",
+  "img": "systems/dnd5e/icons/svg/items/background.svg",
+  "system": {
+    "description": {
+      "value": "<p>Driven by the goal of rectifying the troubles that plague your people, you are a member of a minority religious sect and movement among some Iosans who voluntarily live as exiles from Ios. Unlike those in the Retribution, you believe in finding answers rather than assigning blame or seeking vengeance, and your search for a solution to whatever mysterious ailment has afflicted the goddess Scyrah has taken you far from home. You cling to the hope that the Vanished are awaiting rediscovery somewhere beyond Ios’ borders, and you remain optimistic that engaging in active investigation abroad and developing strong alliances with knowledgeable individuals of other races will help you find a remedy for the current state of your race still in Ios.</p>",
+      "chat": ""
+    },
+    "identifier": "seeker",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Iron Kingdoms: Requiem",
+      "page": "147",
+      "custom": "",
+      "license": ""
+    },
+    "startingEquipment": [
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.equipment24.Item.phbagClothesTrav",
+        "requiresProficiency": false,
+        "_id": "fdgNSs347d7oPFWn",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.equipment24.Item.phbagBook0000000",
+        "requiresProficiency": false,
+        "_id": "95D2nWlpfALAsHU7",
+        "group": "",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": 10,
+        "key": "Compendium.dnd5e.equipment24.Item.phbagTorch000000",
+        "requiresProficiency": false,
+        "_id": "0G8g1hTErzHzaKLh",
+        "group": "",
+        "sort": 300000
+      }
+    ],
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "O9sIZXgU0IhMUL7z",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "wis"
+          ],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "Vry1VNwQbOxxQ6iP",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:inv",
+            "skills:rel"
+          ],
+          "mode": "default"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "h68ycj2nsCiifvmC",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ],
+          "grants": [
+            "languages:exotic:seeker"
+          ],
+          "mode": "default"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "qVzU0mLheySkgIbo",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Item.wxcumBP2lXF7DUff",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "wealth": ""
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.2",
+    "createdTime": 1748922862092,
+    "modifiedTime": 1748922862092,
+    "lastModifiedBy": "wy0UY0Dqu0azaOnu"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "wy0UY0Dqu0azaOnu": 3
+  },
+  "_key": "!items!61h7MG1xtbbjt3cg"
+}

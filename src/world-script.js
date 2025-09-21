@@ -1,4 +1,46 @@
 Hooks.once("init", () => {
+ // Defining the module namespace for easier reference
+const ns = "iron-kingdoms-supplemental";
+
+// Adding Steamjack Parts
+const additions = {
+    steamjackCore:    `${ns}.SteamjackCore`,
+    steamjackCortex:  `${ns}.SteamjackCortex`,
+    steamjackUpgrade: `${ns}.SteamjackUpgrade`
+  };
+
+  // 1) Merge into the Equipment-Type dropdown
+  foundry.utils.mergeObject(
+    CONFIG.DND5E.miscEquipmentTypes,
+    additions,
+    { overwrite: false }
+  );
+  console.log("→ equipmentTypes:", CONFIG.DND5E.equipmentTypes);
+
+  // Steamjack Weapons
+  foundry.utils.mergeObject(
+    CONFIG.DND5E.weaponTypes,
+    {
+      steamjackWeapon: `${ns}.SteamjackWeapon`
+    },
+    { overwrite: false }
+  );
+  console.log("→ weaponTypes:", CONFIG.DND5E.weaponTypes);
+
+  // Steamjack Plating
+  foundry.utils.mergeObject(
+    CONFIG.DND5E.armorTypes,
+    {
+      steamjackPlating: `${ns}.SteamjackPlating`
+    },
+    { overwrite: false }
+  );
+  console.log("→ armorTypes:", CONFIG.DND5E.armorTypes);
+// Adding new ammo types:
+
+    CONFIG.DND5E.consumableTypes.ammo.subtypes.riflerounds = "Bullet, Shell"
+    CONFIG.DND5E.consumableTypes.ammo.subtypes.slugrounds = "Bullet, Slug"
+
 // Deleting languages that don't fit this world
     delete CONFIG.DND5E.languages.standard.children.elvish;
     delete CONFIG.DND5E.languages.standard.children.giant;
@@ -7,7 +49,6 @@ Hooks.once("init", () => {
     delete CONFIG.DND5E.languages.standard.children.halfling;
     delete CONFIG.DND5E.languages.standard.children.orc;
 
-// Deleting exotic languages that don't fit this world
     delete CONFIG.DND5E.languages.exotic.children.aarakocra;
     delete CONFIG.DND5E.languages.exotic.children.primordial;    
     delete CONFIG.DND5E.languages.exotic.children.deepspeech;
@@ -30,7 +71,7 @@ Hooks.once("init", () => {
 // Adding rare languages
 CONFIG.DND5E.languages.exotic.children.seeker = "Seeker";
 
-// Adding new tool proficiencies
+// Mapping new tool proficiencies
 CONFIG.DND5E.tools.mechanik = {
     ability: "int",
     id: "Compendium.iron-kingdoms-supplemental.iron-kingdoms-items.Item.NuBqHpkTS0OUxFEL"
@@ -52,39 +93,9 @@ CONFIG.DND5E.weaponProficienciesMap.martialF = "mar";
 CONFIG.DND5E.weaponTypeMap.simpleF = "ranged";
 CONFIG.DND5E.weaponTypeMap.martialF = "ranged";
 
-// New WeaponIDs
+// Map New WeaponIDs
 CONFIG.DND5E.weaponIds.pistol = "Compendium.iron-kingdoms-supplemental.iron-kingdoms-items.Item.DVdX2oarOwe34JTq";
 CONFIG.DND5E.weaponIds.carbine = "Compendium.iron-kingdoms-supplemental.iron-kingdoms-items.Item.cDA0avbkYzIhMdQe";
 
-// Testing Firearm categorization
-// Firearm Groupings
-// CONFIG.DND5E.weaponProficiencies.simplefirearms = "Simple Firearms";
-
-
-//CONFIG.DND5E.weaponProficiencies.sim.pistols = "Pistols";
-
-// Simple Proficiences
-/*CONFIG.DND5E.weaponProficiencies.simplefirearms.pistols = "Pistols";
-
-// Martial Proficiencies
-CONFIG.DND5E.weaponProficiencies.martialfirearms.carbines = "Carbines";
-CONFIG.DND5E.weaponProficiencies.martialfirearms.rifles = "Rifles";
-
-// What main group the subgroups belong to
-CONFIG.DND5E.weaponProficienciesMap.pistols = "simplefirearms";
-CONFIG.DND5E.weaponProficienciesMap.carbines = "martialfirearms";
-CONFIG.DND5E.weaponProficienciesMap.rifles = "martialfirearms";
-*/
-
-/* 
-CONFIG.DND5E.weaponProficiencies.martialFirearms = "Martial Firearms";
-CONFIG.DND5E.weaponTypes.martialFirearms = "Martial Firearms";
-
-CONFIG.DND5E.weaponProficiencies.simpleFirearms = "Simple Firearms";
-CONFIG.DND5E.weaponTypes.simpleFirearms = "Simple Firearms";
-
-CONFIG.DND5E.weaponProficienciesMap.simpleFirearms = "firearms";
-CONFIG.DND5E.weaponProficienciesMap.martialFirearms = "firearms";
-*/
 // Ending of script
 });

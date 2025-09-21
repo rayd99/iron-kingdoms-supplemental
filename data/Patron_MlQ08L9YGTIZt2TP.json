@@ -1,0 +1,79 @@
+{
+  "folder": "2h4FDhKqUID1Fyu2",
+  "name": "Patron",
+  "type": "feat",
+  "_id": "MlQ08L9YGTIZt2TP",
+  "img": "systems/dnd5e/icons/svg/items/feature.svg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>You receive a stipend from a university, a wealthy individual, or another organization each month as long as you continue to explore new regions, report back regularly, and bring your patron the occasional gift from an exotic place. The amount of this stipend is 1d10 gp per character level. At the GM’s discretion, your benefactor can give you heftier sums for noteworthy accomplishments.</p>",
+      "chat": ""
+    },
+    "identifier": "new-item",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Explorer",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "flags": {
+    "midi-qol": {
+      "rollAttackPerTarget": "default",
+      "removeAttackDamageButtons": "default",
+      "itemCondition": "",
+      "reactionCondition": "",
+      "otherCondition": "",
+      "effectCondition": ""
+    },
+    "midiProperties": {
+      "autoFailFriendly": false,
+      "autoSaveFriendly": false,
+      "magicdam": false,
+      "magiceffect": false,
+      "noConcentrationCheck": false,
+      "toggleEffect": false,
+      "ignoreTotalCover": false
+    },
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.2",
+    "createdTime": 1748922567657,
+    "modifiedTime": 1748922585277,
+    "lastModifiedBy": "wy0UY0Dqu0azaOnu"
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "wy0UY0Dqu0azaOnu": 3
+  },
+  "_key": "!items!MlQ08L9YGTIZt2TP"
+}

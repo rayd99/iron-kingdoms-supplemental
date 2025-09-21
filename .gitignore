@@ -3,6 +3,7 @@ packs/
 
 # Node dependencies, local build outputs, etc.
 node_modules/
+json_import/
 dist/
 .DS_Store
 *.log

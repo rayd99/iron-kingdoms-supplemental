@@ -1,0 +1,182 @@
+{
+  "folder": "cZDzPVWCWMatdW1R",
+  "name": "Explorer",
+  "type": "background",
+  "_id": "QDyNXMi6h1MtXEyk",
+  "img": "systems/dnd5e/icons/svg/items/background.svg",
+  "system": {
+    "description": {
+      "value": "<p>You’ve charted paths through the inhospitable jungles of Alchiere and the trackless wastes of the frozen north to fill in the blank areas on the map. You are more at home in a freshly unsealed Orgoth tomb than in the bustling streets of a major city. You’ve been lost more times than you can count but have always found your way back to civilization.</p>",
+      "chat": ""
+    },
+    "identifier": "explorer",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "Iron Kingdoms: Requiem",
+      "page": "128",
+      "custom": "",
+      "license": ""
+    },
+    "startingEquipment": [
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.equipment24.Item.phbtulCartograph",
+        "requiresProficiency": false,
+        "_id": "T4Nqus4FlIIiXv8L",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.equipment24.Item.phbagClothesTrav",
+        "requiresProficiency": false,
+        "_id": "rL4O0rkbD97VanNc",
+        "group": "",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.equipment24.Item.phbagCaseMaporSc",
+        "requiresProficiency": false,
+        "_id": "pW9PSF5OKL3oIQws",
+        "group": "",
+        "sort": 300000
+      }
+    ],
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "H2BoKEnYRwnrjVO5",
+        "configuration": {
+          "cap": 1,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "wis"
+          ],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "OZESiVBTX6PVbtmA",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:nat",
+            "skills:prc"
+          ],
+          "mode": "default"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "rnuX6Uh23758YUMx",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "tool:art:cartographer"
+          ],
+          "mode": "default"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "Mbk3NcM21Eca2M1i",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "ohNF82ZCqWgxWakV",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Item.MlQ08L9YGTIZt2TP",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "wealth": ""
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.2",
+    "createdTime": 1748922862092,
+    "modifiedTime": 1748922862092,
+    "lastModifiedBy": "wy0UY0Dqu0azaOnu"
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "wy0UY0Dqu0azaOnu": 3
+  },
+  "_key": "!items!QDyNXMi6h1MtXEyk"
+}
